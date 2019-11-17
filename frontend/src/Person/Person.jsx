@@ -8,6 +8,8 @@ const Person = props => {
         I'm a person. My name is {props.name} and my age is {props.age}
       </p>
       <p>{props.children}</p>
+      <input type="text" onChange={props.change} value={props.name}></input>
+      <button onClick={props.click}>-</button>
     </div>
   );
 };
