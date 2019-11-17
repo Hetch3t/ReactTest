@@ -1,2 +1,2 @@
 # ReactTest
-Just trying out React
+Just trying out React.
